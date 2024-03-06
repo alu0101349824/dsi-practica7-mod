@@ -177,6 +177,11 @@ describe("Colecciones Aritméticas", () => {
         "No se puede dividir por un número racional con numerador 0.",
       );
     });
+
+    it("Debe obtener el denominador de un racional", () => {
+      const rational = new Rational(1, 2);
+      expect(rational.getDenominator()).to.eql(2);
+    });
   });
 
   describe("Colecciones de Arithmeticable", () => {
@@ -224,6 +229,21 @@ describe("Operaciones aritméticas entre complejos y racionales", () => {
       new Complex(adapter.getRational().getNumerator(), adapter.getImaginary()),
     );
     expect(resultado.toString()).to.be.equal("4+2i");
+    expect(adapter.getImaginary()).to.be.equal(0);
+    expect(adapter.getRational().getNumerator()).to.be.equal(3);
+    expect(adapter.getRational().getDenominator()).to.be.equal(4);
+
+    const complexRationalAdapter1 = new ComplexRationalAdapter(
+      new Rational(6, 4),
+      2,
+    );
+    const complexRationalAdapter2 = new ComplexRationalAdapter(
+      new Rational(3, 4),
+      0,
+    );
+    const expectedResult = new ComplexRationalAdapter(new Rational(9, 4), 2);
+    const result = complexRationalAdapter1.add(complexRationalAdapter2);
+    expect(result).to.eql(expectedResult);
   });
 
   it("Resta de un número complejo y un número racional", () => {
@@ -234,6 +254,21 @@ describe("Operaciones aritméticas entre complejos y racionales", () => {
       new Complex(adapter.getRational().getNumerator(), adapter.getImaginary()),
     );
     expect(resultado.toString()).to.be.equal("-2+2i");
+    expect(adapter.getImaginary()).to.be.equal(0);
+    expect(adapter.getRational().getNumerator()).to.be.equal(3);
+    expect(adapter.getRational().getDenominator()).to.be.equal(4);
+
+    const complexRationalAdapter1 = new ComplexRationalAdapter(
+      new Rational(6, 4),
+      2,
+    );
+    const complexRationalAdapter2 = new ComplexRationalAdapter(
+      new Rational(3, 4),
+      0,
+    );
+    const expectedResult = new ComplexRationalAdapter(new Rational(3, 4), 2);
+    const result = complexRationalAdapter1.subtract(complexRationalAdapter2);
+    expect(result).to.eql(expectedResult);
   });
 
   it("Multiplicación de un número complejo y un número racional", () => {
@@ -244,6 +279,21 @@ describe("Operaciones aritméticas entre complejos y racionales", () => {
       new Complex(adapter.getRational().getNumerator(), adapter.getImaginary()),
     );
     expect(resultado.toString()).to.be.equal("3+6i");
+    expect(adapter.getImaginary()).to.be.equal(0);
+    expect(adapter.getRational().getNumerator()).to.be.equal(3);
+    expect(adapter.getRational().getDenominator()).to.be.equal(4);
+
+    const complexRationalAdapter1 = new ComplexRationalAdapter(
+      new Rational(3, 4),
+      2,
+    );
+    const complexRationalAdapter2 = new ComplexRationalAdapter(
+      new Rational(5, 6),
+      3,
+    );
+    const expectedResult = new ComplexRationalAdapter(new Rational(5, 8), 6);
+    const result = complexRationalAdapter1.multiply(complexRationalAdapter2);
+    expect(result).to.eql(expectedResult);
   });
 
   it("División de un número complejo y un número racional", () => {
@@ -254,6 +304,24 @@ describe("Operaciones aritméticas entre complejos y racionales", () => {
       new Complex(adapter.getRational().getNumerator(), adapter.getImaginary()),
     );
     expect(resultado.toString()).to.be.equal("2+4i");
+    expect(adapter.getImaginary()).to.be.equal(0);
+    expect(adapter.getRational().getNumerator()).to.be.equal(1);
+    expect(adapter.getRational().getDenominator()).to.be.equal(4);
+
+    const complexRationalAdapter1 = new ComplexRationalAdapter(
+      new Rational(6, 4),
+      2,
+    );
+    const complexRationalAdapter2 = new ComplexRationalAdapter(
+      new Rational(3, 6),
+      0,
+    );
+    const expectedResult = new ComplexRationalAdapter(
+      new Rational(3, 1),
+      Infinity,
+    );
+    const result = complexRationalAdapter1.divide(complexRationalAdapter2);
+    expect(result).to.eql(expectedResult);
   });
 
   it("El numerador de la división entre un complejo y un racional no puede ser 0", () => {

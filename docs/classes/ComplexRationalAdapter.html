@@ -3,14 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <title>
-      Arithmeticable |
-      ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
-    </title>
-    <meta
-      name="description"
-      content="Documentation for ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824"
-    />
+    <title>ComplexRationalAdapter | dsi-practica7-mod</title>
+    <meta name="description" content="Documentation for dsi-practica7-mod" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../assets/style.css" />
     <link rel="stylesheet" href="../assets/highlight.css" />
@@ -60,142 +54,54 @@
       <div class="col-content">
         <div class="tsd-page-title">
           <ul class="tsd-breadcrumb">
+            <li><a href="../modules.html">dsi-practica7-mod</a></li>
             <li>
-              <a href="../index.html"
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</a
-              >
-            </li>
-            <li>
-              <a href="../modules/Modificaci_n_arreglada__PE101_.html"
-                >Modificación arreglada: PE101.</a
-              >
-            </li>
-            <li>
-              <a href="Modificaci_n_arreglada__PE101_.Arithmeticable.html"
-                >Arithmeticable</a
-              >
+              <a href="ComplexRationalAdapter.html">ComplexRationalAdapter</a>
             </li>
           </ul>
-          <h1>Interface Arithmeticable&lt;T&gt;</h1>
+          <h1>Class ComplexRationalAdapter</h1>
         </div>
         <section class="tsd-panel tsd-comment">
           <div class="tsd-comment tsd-typography">
             <p>
-              Interfaz genérica <code>Arithmeticable</code> que define
-              operaciones aritméticas básicas. Define los métodos para sumar,
-              restar, multiplicar y dividir.
+              Clase <code>ComplexRationalAdapter</code> que actúa como adaptador
+              entre números complejos y racionales. Permite operaciones
+              aritméticas entre números complejos y racionales. Implementa los
+              métodos para sumar, restar, multiplicar y dividir. Es hijo de
+              <code>Arithmeticable</code> y exige que los números complejos
+              implementen la interfaz <code>Arithmeticable</code>.
             </p>
           </div>
           <div class="tsd-comment tsd-typography">
             <h4>Method</h4>
-            <p>add Suma de dos elementos.</p>
+            <p>add Suma de un número complejo y un número racional.</p>
             <h4>Method</h4>
-            <p>subtract Resta de dos elementos.</p>
+            <p>subtract Resta de un número complejo y un número racional.</p>
             <h4>Method</h4>
-            <p>multiply Multiplicación de dos elementos.</p>
+            <p>
+              multiply Multiplicación de un número complejo y un número
+              racional.
+            </p>
             <h4>Method</h4>
-            <p>divide División de dos elementos.</p>
+            <p>divide División de un número complejo y un número racional.</p>
             <h4>Returns</h4>
             <p>El resultado de la operación aritmética.</p>
           </div>
         </section>
-        <div class="tsd-signature">
-          <span class="tsd-signature-keyword">interface </span
-          ><span class="tsd-kind-interface">Arithmeticable</span
-          ><span class="tsd-signature-symbol">&lt;</span
-          ><a
-            class="tsd-signature-type tsd-kind-type-parameter"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-            >T</a
-          ><span class="tsd-signature-symbol">&gt;</span>
-          <span class="tsd-signature-symbol">{ </span><br /><span>    </span
-          ><a
-            class="tsd-kind-call-signature"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#add.add-1"
-            >add</a
-          ><span class="tsd-signature-symbol">(</span
-          ><span class="tsd-kind-parameter">other</span
-          ><span class="tsd-signature-symbol">)</span
-          ><span class="tsd-signature-symbol">: </span
-          ><a
-            class="tsd-signature-type tsd-kind-type-parameter"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-            >T</a
-          ><span class="tsd-signature-symbol">; </span><br /><span>    </span
-          ><a
-            class="tsd-kind-call-signature"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#divide.divide-1"
-            >divide</a
-          ><span class="tsd-signature-symbol">(</span
-          ><span class="tsd-kind-parameter">other</span
-          ><span class="tsd-signature-symbol">)</span
-          ><span class="tsd-signature-symbol">: </span
-          ><a
-            class="tsd-signature-type tsd-kind-type-parameter"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-            >T</a
-          ><span class="tsd-signature-symbol">; </span><br /><span>    </span
-          ><a
-            class="tsd-kind-call-signature"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#multiply.multiply-1"
-            >multiply</a
-          ><span class="tsd-signature-symbol">(</span
-          ><span class="tsd-kind-parameter">other</span
-          ><span class="tsd-signature-symbol">)</span
-          ><span class="tsd-signature-symbol">: </span
-          ><a
-            class="tsd-signature-type tsd-kind-type-parameter"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-            >T</a
-          ><span class="tsd-signature-symbol">; </span><br /><span>    </span
-          ><a
-            class="tsd-kind-call-signature"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#subtract.subtract-1"
-            >subtract</a
-          ><span class="tsd-signature-symbol">(</span
-          ><span class="tsd-kind-parameter">other</span
-          ><span class="tsd-signature-symbol">)</span
-          ><span class="tsd-signature-symbol">: </span
-          ><a
-            class="tsd-signature-type tsd-kind-type-parameter"
-            href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-            >T</a
-          ><span class="tsd-signature-symbol">; </span><br /><span
-            class="tsd-signature-symbol"
-            >}</span
-          >
-        </div>
         <section class="tsd-panel">
-          <h4>Type Parameters</h4>
-          <ul class="tsd-type-parameter-list">
-            <li>
-              <h4>
-                <a id="T" class="tsd-anchor"></a
-                ><span class="tsd-kind-type-parameter">T</span>
-              </h4>
-              <div class="tsd-comment tsd-typography">
-                <p>Tipo genérico para las operaciones aritméticas.</p>
-              </div>
-              <div class="tsd-comment tsd-typography"></div>
-            </li>
-          </ul>
-        </section>
-        <section class="tsd-panel">
-          <h4>Implemented by</h4>
+          <h4>Implements</h4>
           <ul class="tsd-hierarchy">
             <li>
               <a
-                href="../classes/Modificaci_n_arreglada__PE101_.Complex.html"
+                href="../interfaces/Arithmeticable.html"
+                class="tsd-signature-type tsd-kind-interface"
+                >Arithmeticable</a
+              ><span class="tsd-signature-symbol">&lt;</span
+              ><a
+                href="ComplexRationalAdapter.html"
                 class="tsd-signature-type tsd-kind-class"
-                >Complex</a
-              >
-            </li>
-            <li>
-              <a
-                href="../classes/Modificaci_n_arreglada__PE101_.Rational.html"
-                class="tsd-signature-type tsd-kind-class"
-                >Rational</a
-              >
+                >ComplexRationalAdapter</a
+              ><span class="tsd-signature-symbol">&gt;</span>
             </li>
           </ul>
         </section>
@@ -204,8 +110,8 @@
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L28"
-                >modificacion-arreglada.ts:28</a
+                href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L374"
+                >p7-mod1.ts:374</a
               >
             </li>
           </ul>
@@ -228,31 +134,76 @@
               </summary>
               <div class="tsd-accordion-details">
                 <section class="tsd-index-section">
+                  <h3 class="tsd-index-heading">Constructors</h3>
+                  <div class="tsd-index-list">
+                    <a
+                      href="ComplexRationalAdapter.html#constructor"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-512"></use></svg
+                      ><span>constructor</span></a
+                    >
+                  </div>
+                </section>
+                <section class="tsd-index-section">
+                  <h3 class="tsd-index-heading">Properties</h3>
+                  <div class="tsd-index-list">
+                    <a
+                      href="ComplexRationalAdapter.html#imaginary"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-1024"></use></svg
+                      ><span>imaginary</span></a
+                    >
+                    <a
+                      href="ComplexRationalAdapter.html#rational"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-1024"></use></svg
+                      ><span>rational</span></a
+                    >
+                  </div>
+                </section>
+                <section class="tsd-index-section">
                   <h3 class="tsd-index-heading">Methods</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#add"
+                      href="ComplexRationalAdapter.html#add"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
                       ><span>add</span></a
                     >
                     <a
-                      href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#divide"
+                      href="ComplexRationalAdapter.html#divide"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
                       ><span>divide</span></a
                     >
                     <a
-                      href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#multiply"
+                      href="ComplexRationalAdapter.html#getImaginary"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>get<wbr />Imaginary</span></a
+                    >
+                    <a
+                      href="ComplexRationalAdapter.html#getRational"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>get<wbr />Rational</span></a
+                    >
+                    <a
+                      href="ComplexRationalAdapter.html#multiply"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
                       ><span>multiply</span></a
                     >
                     <a
-                      href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#subtract"
+                      href="ComplexRationalAdapter.html#subtract"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
@@ -262,6 +213,174 @@
                 </section>
               </div>
             </details>
+          </section>
+        </section>
+        <section class="tsd-panel-group tsd-member-group">
+          <h2>Constructors</h2>
+          <section class="tsd-panel tsd-member">
+            <a id="constructor" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>constructor</span
+              ><a
+                href="#constructor"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a
+                  id="constructor.new_ComplexRationalAdapter"
+                  class="tsd-anchor"
+                ></a
+                ><span class="tsd-kind-constructor-signature"
+                  >new <wbr />Complex<wbr />Rational<wbr />Adapter</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">rational</span>,
+                <span class="tsd-kind-parameter">imaginary</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="ComplexRationalAdapter.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >ComplexRationalAdapter</a
+                ><a
+                  href="#constructor.new_ComplexRationalAdapter"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>
+                    Constructor de la clase <code>ComplexRationalAdapter</code>.
+                  </p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">rational</span>:
+                        <a
+                          href="Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número racional a adaptar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">imaginary</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Parte imaginaria del número complejo.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="ComplexRationalAdapter.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >ComplexRationalAdapter</a
+                  >
+                </h4>
+                <p>Una instancia de <code>ComplexRationalAdapter</code>.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L383"
+                        >p7-mod1.ts:383</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="tsd-panel-group tsd-member-group">
+          <h2>Properties</h2>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="imaginary" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>imaginary</span
+              ><a
+                href="#imaginary"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <div class="tsd-signature">
+              <span class="tsd-kind-property">imaginary</span
+              ><span class="tsd-signature-symbol">:</span>
+              <span class="tsd-signature-type">number</span>
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <p>Parte imaginaria del número complejo.</p>
+            </div>
+            <div class="tsd-comment tsd-typography"></div>
+            <aside class="tsd-sources">
+              <ul>
+                <li>
+                  Defined in
+                  <a
+                    href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L385"
+                    >p7-mod1.ts:385</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="rational" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>rational</span
+              ><a
+                href="#rational"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <div class="tsd-signature">
+              <span class="tsd-kind-property">rational</span
+              ><span class="tsd-signature-symbol">:</span>
+              <a href="Rational.html" class="tsd-signature-type tsd-kind-class"
+                >Rational</a
+              >
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <p>Número racional utilizado en el adaptador.</p>
+            </div>
+            <div class="tsd-comment tsd-typography"></div>
+            <aside class="tsd-sources">
+              <ul>
+                <li>
+                  Defined in
+                  <a
+                    href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L384"
+                    >p7-mod1.ts:384</a
+                  >
+                </li>
+              </ul>
+            </aside>
           </section>
         </section>
         <section class="tsd-panel-group tsd-member-group">
@@ -283,9 +402,9 @@
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                  >T</a
+                  href="ComplexRationalAdapter.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >ComplexRationalAdapter</a
                 ><a
                   href="#add.add-1"
                   aria-label="Permalink"
@@ -295,7 +414,7 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Realiza la suma de dos elementos.</p>
+                  <p>Suma de un número complejo y un número racional.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
@@ -304,13 +423,13 @@
                       <h5>
                         <span class="tsd-kind-parameter">other</span>:
                         <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                          >T</a
+                          href="ComplexRationalAdapter.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >ComplexRationalAdapter</a
                         >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Elemento a sumar.</p>
+                        <p>Número complejo a sumar.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -319,20 +438,26 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                    >T</a
+                    href="ComplexRationalAdapter.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >ComplexRationalAdapter</a
                   >
                 </h4>
-                <p>La suma de this y other.</p>
+                <p>El resultado de la operación aritmética.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#add">add</a>
+                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L34"
-                        >modificacion-arreglada.ts:34</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L401"
+                        >p7-mod1.ts:401</a
                       >
                     </li>
                   </ul>
@@ -357,9 +482,9 @@
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                  >T</a
+                  href="ComplexRationalAdapter.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >ComplexRationalAdapter</a
                 ><a
                   href="#divide.divide-1"
                   aria-label="Permalink"
@@ -369,7 +494,7 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Realiza la división de dos elementos.</p>
+                  <p>División de un número complejo y un número racional.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
@@ -378,13 +503,13 @@
                       <h5>
                         <span class="tsd-kind-parameter">other</span>:
                         <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                          >T</a
+                          href="ComplexRationalAdapter.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >ComplexRationalAdapter</a
                         >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Elemento a dividir.</p>
+                        <p>Número complejo a dividir.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -393,20 +518,130 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                    >T</a
+                    href="ComplexRationalAdapter.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >ComplexRationalAdapter</a
                   >
                 </h4>
-                <p>La división de this y other.</p>
-                <div class="tsd-comment tsd-typography"></div>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography">
+                  <h4>Throws</h4>
+                  <p>
+                    Error si el número racional <code>other</code> tiene un
+                    numerador igual a cero.
+                  </p>
+                </div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#divide"
+                      >divide</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L438"
+                        >p7-mod1.ts:438</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="getImaginary" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>get<wbr />Imaginary</span
+              ><a
+                href="#getImaginary"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="getImaginary.getImaginary-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">get<wbr />Imaginary</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">number</span
+                ><a
+                  href="#getImaginary.getImaginary-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">number</span>
+                </h4>
                 <aside class="tsd-sources">
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L55"
-                        >modificacion-arreglada.ts:55</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L392"
+                        >p7-mod1.ts:392</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="getRational" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>get<wbr />Rational</span
+              ><a
+                href="#getRational"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="getRational.getRational-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">get<wbr />Rational</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#getRational.getRational-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
+                </h4>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L388"
+                        >p7-mod1.ts:388</a
                       >
                     </li>
                   </ul>
@@ -434,9 +669,9 @@
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                  >T</a
+                  href="ComplexRationalAdapter.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >ComplexRationalAdapter</a
                 ><a
                   href="#multiply.multiply-1"
                   aria-label="Permalink"
@@ -446,7 +681,9 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Realiza la multiplicación de dos elementos.</p>
+                  <p>
+                    Multiplicación de un número complejo y un número racional.
+                  </p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
@@ -455,13 +692,13 @@
                       <h5>
                         <span class="tsd-kind-parameter">other</span>:
                         <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                          >T</a
+                          href="ComplexRationalAdapter.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >ComplexRationalAdapter</a
                         >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Elemento a multiplicar.</p>
+                        <p>Número complejo a multiplicar.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -470,20 +707,28 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                    >T</a
+                    href="ComplexRationalAdapter.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >ComplexRationalAdapter</a
                   >
                 </h4>
-                <p>La multiplicación de this y other.</p>
+                <p>El resultado de la operación aritmética.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#multiply"
+                      >multiply</a
+                    >
+                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L48"
-                        >modificacion-arreglada.ts:48</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L425"
+                        >p7-mod1.ts:425</a
                       >
                     </li>
                   </ul>
@@ -511,9 +756,9 @@
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                  >T</a
+                  href="ComplexRationalAdapter.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >ComplexRationalAdapter</a
                 ><a
                   href="#subtract.subtract-1"
                   aria-label="Permalink"
@@ -523,7 +768,7 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Realiza la resta de dos elementos.</p>
+                  <p>Resta de un número complejo y un número racional.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
@@ -532,13 +777,13 @@
                       <h5>
                         <span class="tsd-kind-parameter">other</span>:
                         <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                          >T</a
+                          href="ComplexRationalAdapter.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >ComplexRationalAdapter</a
                         >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Elemento a restar.</p>
+                        <p>Número complejo a restar.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -547,20 +792,28 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Modificaci_n_arreglada__PE101_.Arithmeticable.html#T"
-                    >T</a
+                    href="ComplexRationalAdapter.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >ComplexRationalAdapter</a
                   >
                 </h4>
-                <p>La resta de this y other.</p>
+                <p>El resultado de la operación aritmética.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#subtract"
+                      >subtract</a
+                    >
+                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L41"
-                        >modificacion-arreglada.ts:41</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L413"
+                        >p7-mod1.ts:413</a
                       >
                     </li>
                   </ul>
@@ -740,6 +993,27 @@
             <div class="tsd-accordion-details">
               <ul>
                 <li>
+                  <a href="#constructor" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-512"></use></svg
+                    ><span>constructor</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#imaginary" class="tsd-is-private"
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-1024"></use></svg
+                    ><span>imaginary</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#rational" class="tsd-is-private"
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-1024"></use></svg
+                    ><span>rational</span></a
+                  >
+                </li>
+                <li>
                   <a href="#add" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
@@ -751,6 +1025,20 @@
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
                     ><span>divide</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#getImaginary" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>get<wbr />Imaginary</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#getRational" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>get<wbr />Rational</span></a
                   >
                 </li>
                 <li>
@@ -773,12 +1061,10 @@
         </div>
         <div class="site-menu">
           <nav class="tsd-navigation">
-            <a href="../index.html"
+            <a href="../modules.html"
               ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                 <use href="#icon-1"></use></svg
-              ><span
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</span
-              ></a
+              ><span>dsi-practica7-mod</span></a
             >
             <ul
               class="tsd-small-nested-navigation"
@@ -786,67 +1072,38 @@
               data-base=".."
             >
               <li>
-                <a href="../modules/Ejercicio_1__La_mudanza_.html"
+                <a href="ArithmeticableCollection.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 1: La mudanza.</a
+                    <use href="#icon-128"></use></svg
+                  >ArithmeticableCollection</a
                 >
               </li>
               <li>
-                <a
-                  href="../modules/Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                <a href="Complex.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 2: Facturas en diferentes formatos.</a
+                    <use href="#icon-128"></use></svg
+                  >Complex</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_3__Gestor_de_ficheros_.html"
+                <a href="ComplexRationalAdapter.html" class="current"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 3: Gestor de ficheros.</a
+                    <use href="#icon-128"></use></svg
+                  >ComplexRationalAdapter</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_4__Impresoras_y_esc_neres_.html"
+                <a href="Rational.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 4: Impresoras y escáneres.</a
+                    <use href="#icon-128"></use></svg
+                  >Rational</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_5__Servicio_de_mensajer_a_.html"
+                <a href="../interfaces/Arithmeticable.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 5: Servicio de mensajería.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/Modificaci_n_arreglada__PE101_.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Modificación arreglada: PE101.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_1.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-1</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_2.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-2</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_3.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-3</a
+                    <use href="#icon-256"></use></svg
+                  >Arithmeticable</a
                 >
               </li>
             </ul>

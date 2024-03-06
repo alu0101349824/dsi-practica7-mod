@@ -3,13 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <title>
-      FacturaHTML | ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
-    </title>
-    <meta
-      name="description"
-      content="Documentation for ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824"
-    />
+    <title>Arithmeticable | dsi-practica7-mod</title>
+    <meta name="description" content="Documentation for dsi-practica7-mod" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../assets/style.css" />
     <link rel="stylesheet" href="../assets/highlight.css" />
@@ -59,73 +54,135 @@
       <div class="col-content">
         <div class="tsd-page-title">
           <ul class="tsd-breadcrumb">
-            <li>
-              <a href="../index.html"
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</a
-              >
-            </li>
-            <li>
-              <a
-                href="../modules/Ejercicio_2__Facturas_en_diferentes_formatos_.html"
-                >Ejercicio 2: Facturas en diferentes formatos.</a
-              >
-            </li>
-            <li>
-              <a
-                href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html"
-                >FacturaHTML</a
-              >
-            </li>
+            <li><a href="../modules.html">dsi-practica7-mod</a></li>
+            <li><a href="Arithmeticable.html">Arithmeticable</a></li>
           </ul>
-          <h1>Class FacturaHTML</h1>
+          <h1>Interface Arithmeticable&lt;T&gt;</h1>
         </div>
         <section class="tsd-panel tsd-comment">
           <div class="tsd-comment tsd-typography">
             <p>
-              Generación de factura en formato HTML. Esta clase hereda de la
-              clase Factura y además implementa la interfaz IFactura, por lo que
-              tiene un método para generar la factura.
+              Interfaz genérica <code>Arithmeticable</code> que define
+              operaciones aritméticas básicas. Define los métodos para sumar,
+              restar, multiplicar y dividir.
             </p>
           </div>
           <div class="tsd-comment tsd-typography">
-            <h4>Param: estilosCSS</h4>
-            <p>
-              Atributo específico para el formato HTML. Son los estilos CSS del
-              HTML.
-            </p>
             <h4>Method</h4>
-            <p>generarFactura Método para generar la factura.</p>
+            <p>add Suma de dos elementos.</p>
+            <h4>Method</h4>
+            <p>subtract Resta de dos elementos.</p>
+            <h4>Method</h4>
+            <p>multiply Multiplicación de dos elementos.</p>
+            <h4>Method</h4>
+            <p>divide División de dos elementos.</p>
+            <h4>Returns</h4>
+            <p>El resultado de la operación aritmética.</p>
           </div>
         </section>
-        <section class="tsd-panel tsd-hierarchy">
-          <h4>
-            Hierarchy (<a
-              class="link"
-              href="../hierarchy.html#Ejercicio 2: Facturas en diferentes formatos..FacturaHTML"
-              >view full</a
-            >)
-          </h4>
-          <ul class="tsd-hierarchy">
+        <div class="tsd-signature">
+          <span class="tsd-signature-keyword">interface </span
+          ><span class="tsd-kind-interface">Arithmeticable</span
+          ><span class="tsd-signature-symbol">&lt;</span
+          ><a
+            class="tsd-signature-type tsd-kind-type-parameter"
+            href="Arithmeticable.html#T"
+            >T</a
+          ><span class="tsd-signature-symbol">&gt;</span>
+          <span class="tsd-signature-symbol">{ </span><br /><span>    </span
+          ><a
+            class="tsd-kind-call-signature"
+            href="Arithmeticable.html#add.add-1"
+            >add</a
+          ><span class="tsd-signature-symbol">(</span
+          ><span class="tsd-kind-parameter">other</span
+          ><span class="tsd-signature-symbol">)</span
+          ><span class="tsd-signature-symbol">: </span
+          ><a
+            class="tsd-signature-type tsd-kind-type-parameter"
+            href="Arithmeticable.html#T"
+            >T</a
+          ><span class="tsd-signature-symbol">; </span><br /><span>    </span
+          ><a
+            class="tsd-kind-call-signature"
+            href="Arithmeticable.html#divide.divide-1"
+            >divide</a
+          ><span class="tsd-signature-symbol">(</span
+          ><span class="tsd-kind-parameter">other</span
+          ><span class="tsd-signature-symbol">)</span
+          ><span class="tsd-signature-symbol">: </span
+          ><a
+            class="tsd-signature-type tsd-kind-type-parameter"
+            href="Arithmeticable.html#T"
+            >T</a
+          ><span class="tsd-signature-symbol">; </span><br /><span>    </span
+          ><a
+            class="tsd-kind-call-signature"
+            href="Arithmeticable.html#multiply.multiply-1"
+            >multiply</a
+          ><span class="tsd-signature-symbol">(</span
+          ><span class="tsd-kind-parameter">other</span
+          ><span class="tsd-signature-symbol">)</span
+          ><span class="tsd-signature-symbol">: </span
+          ><a
+            class="tsd-signature-type tsd-kind-type-parameter"
+            href="Arithmeticable.html#T"
+            >T</a
+          ><span class="tsd-signature-symbol">; </span><br /><span>    </span
+          ><a
+            class="tsd-kind-call-signature"
+            href="Arithmeticable.html#subtract.subtract-1"
+            >subtract</a
+          ><span class="tsd-signature-symbol">(</span
+          ><span class="tsd-kind-parameter">other</span
+          ><span class="tsd-signature-symbol">)</span
+          ><span class="tsd-signature-symbol">: </span
+          ><a
+            class="tsd-signature-type tsd-kind-type-parameter"
+            href="Arithmeticable.html#T"
+            >T</a
+          ><span class="tsd-signature-symbol">; </span><br /><span
+            class="tsd-signature-symbol"
+            >}</span
+          >
+        </div>
+        <section class="tsd-panel">
+          <h4>Type Parameters</h4>
+          <ul class="tsd-type-parameter-list">
             <li>
-              <a
-                href="Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html"
-                class="tsd-signature-type tsd-kind-class"
-                >Factura</a
-              >
-              <ul class="tsd-hierarchy">
-                <li><span class="target">FacturaHTML</span></li>
-              </ul>
+              <h4>
+                <a id="T" class="tsd-anchor"></a
+                ><span class="tsd-kind-type-parameter">T</span>
+              </h4>
+              <div class="tsd-comment tsd-typography">
+                <p>Tipo genérico para las operaciones aritméticas.</p>
+              </div>
+              <div class="tsd-comment tsd-typography"></div>
             </li>
           </ul>
         </section>
         <section class="tsd-panel">
-          <h4>Implements</h4>
+          <h4>Implemented by</h4>
           <ul class="tsd-hierarchy">
             <li>
               <a
-                href="../interfaces/Ejercicio_2__Facturas_en_diferentes_formatos_.IFactura.html"
-                class="tsd-signature-type tsd-kind-interface"
-                >IFactura</a
+                href="../classes/Complex.html"
+                class="tsd-signature-type tsd-kind-class"
+                >Complex</a
+              >
+            </li>
+            <li>
+              <a
+                href="../classes/ComplexRationalAdapter.html"
+                class="tsd-signature-type tsd-kind-class"
+                >ComplexRationalAdapter</a
+              >
+            </li>
+            <li>
+              <a
+                href="../classes/Rational.html"
+                class="tsd-signature-type tsd-kind-class"
+                >Rational</a
               >
             </li>
           </ul>
@@ -135,8 +192,8 @@
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-2.ts#L86"
-                >ejercicio-2.ts:86</a
+                href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L22"
+                >p7-mod1.ts:22</a
               >
             </li>
           </ul>
@@ -159,52 +216,31 @@
               </summary>
               <div class="tsd-accordion-details">
                 <section class="tsd-index-section">
-                  <h3 class="tsd-index-heading">Constructors</h3>
-                  <div class="tsd-index-list">
-                    <a
-                      href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html#constructor"
-                      class="tsd-index-link"
-                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                        <use href="#icon-512"></use></svg
-                      ><span>constructor</span></a
-                    >
-                  </div>
-                </section>
-                <section class="tsd-index-section">
-                  <h3 class="tsd-index-heading">Properties</h3>
-                  <div class="tsd-index-list">
-                    <a
-                      href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html#cliente"
-                      class="tsd-index-link tsd-is-inherited"
-                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                        <use href="#icon-1024"></use></svg
-                      ><span>cliente</span></a
-                    >
-                    <a
-                      href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html#estilosCSS"
-                      class="tsd-index-link"
-                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                        <use href="#icon-1024"></use></svg
-                      ><span>estilosCSS</span></a
-                    >
-                    <a
-                      href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html#total"
-                      class="tsd-index-link tsd-is-inherited"
-                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                        <use href="#icon-1024"></use></svg
-                      ><span>total</span></a
-                    >
-                  </div>
-                </section>
-                <section class="tsd-index-section">
                   <h3 class="tsd-index-heading">Methods</h3>
                   <div class="tsd-index-list">
+                    <a href="Arithmeticable.html#add" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>add</span></a
+                    >
+                    <a href="Arithmeticable.html#divide" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>divide</span></a
+                    >
                     <a
-                      href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html#generarFactura"
+                      href="Arithmeticable.html#multiply"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>generar<wbr />Factura</span></a
+                      ><span>multiply</span></a
+                    >
+                    <a
+                      href="Arithmeticable.html#subtract"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>subtract</span></a
                     >
                   </div>
                 </section>
@@ -213,35 +249,29 @@
           </section>
         </section>
         <section class="tsd-panel-group tsd-member-group">
-          <h2>Constructors</h2>
+          <h2>Methods</h2>
           <section class="tsd-panel tsd-member">
-            <a id="constructor" class="tsd-anchor"></a>
+            <a id="add" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>constructor</span
-              ><a
-                href="#constructor"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
+              <span>add</span
+              ><a href="#add" aria-label="Permalink" class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="constructor.new_FacturaHTML" class="tsd-anchor"></a
-                ><span class="tsd-kind-constructor-signature"
-                  >new <wbr />FacturaHTML</span
+                <a id="add.add-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">add</span
                 ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">cliente</span>,
-                <span class="tsd-kind-parameter">total</span>,
-                <span class="tsd-kind-parameter">estilosCSS</span
+                ><span class="tsd-kind-parameter">other</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html"
-                  class="tsd-signature-type tsd-kind-class"
-                  >FacturaHTML</a
+                  class="tsd-signature-type tsd-kind-type-parameter"
+                  href="Arithmeticable.html#T"
+                  >T</a
                 ><a
-                  href="#constructor.new_FacturaHTML"
+                  href="#add.add-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -249,41 +279,22 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Constructor de la clase FacturaHTML.</p>
+                  <p>Realiza la suma de dos elementos.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">cliente</span>:
-                        <span class="tsd-signature-type">string</span>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          class="tsd-signature-type tsd-kind-type-parameter"
+                          href="Arithmeticable.html#T"
+                          >T</a
+                        >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Nombre del cliente.</p>
-                      </div>
-                      <div class="tsd-comment tsd-typography"></div>
-                    </li>
-                    <li>
-                      <h5>
-                        <span class="tsd-kind-parameter">total</span>:
-                        <span class="tsd-signature-type">number</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>Total de la factura.</p>
-                      </div>
-                      <div class="tsd-comment tsd-typography"></div>
-                    </li>
-                    <li>
-                      <h5>
-                        <span class="tsd-kind-parameter">estilosCSS</span>:
-                        <span class="tsd-signature-type">string</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>
-                          Atributo específico para el formato HTML. Son los
-                          estilos CSS del HTML.
-                        </p>
+                        <p>Elemento a sumar.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -292,29 +303,20 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    href="Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html"
-                    class="tsd-signature-type tsd-kind-class"
-                    >FacturaHTML</a
+                    class="tsd-signature-type tsd-kind-type-parameter"
+                    href="Arithmeticable.html#T"
+                    >T</a
                   >
                 </h4>
+                <p>La suma de this y other.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
-                  <p>
-                    Overrides
-                    <a
-                      href="Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html"
-                      >Factura</a
-                    >.<a
-                      href="Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html#constructor"
-                      >constructor</a
-                    >
-                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-2.ts#L98"
-                        >ejercicio-2.ts:98</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L28"
+                        >p7-mod1.ts:28</a
                       >
                     </li>
                   </ul>
@@ -322,144 +324,28 @@
               </li>
             </ul>
           </section>
-        </section>
-        <section class="tsd-panel-group tsd-member-group">
-          <h2>Properties</h2>
-          <section class="tsd-panel tsd-member tsd-is-inherited">
-            <a id="cliente" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>cliente</span
-              ><a href="#cliente" aria-label="Permalink" class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <div class="tsd-signature">
-              <span class="tsd-kind-property">cliente</span
-              ><span class="tsd-signature-symbol">:</span>
-              <span class="tsd-signature-type">string</span>
-            </div>
-            <div class="tsd-comment tsd-typography">
-              <p>Nombre del cliente.</p>
-            </div>
-            <div class="tsd-comment tsd-typography"></div>
-            <aside class="tsd-sources">
-              <p>
-                Inherited from
-                <a
-                  href="Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html"
-                  >Factura</a
-                >.<a
-                  href="Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html#cliente"
-                  >cliente</a
-                >
-              </p>
-              <ul>
-                <li>
-                  Defined in
-                  <a
-                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-2.ts#L39"
-                    >ejercicio-2.ts:39</a
-                  >
-                </li>
-              </ul>
-            </aside>
-          </section>
           <section class="tsd-panel tsd-member">
-            <a id="estilosCSS" class="tsd-anchor"></a>
+            <a id="divide" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>estilosCSS</span
-              ><a
-                href="#estilosCSS"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <div class="tsd-signature">
-              <span class="tsd-kind-property">estilosCSS</span
-              ><span class="tsd-signature-symbol">:</span>
-              <span class="tsd-signature-type">string</span>
-            </div>
-            <div class="tsd-comment tsd-typography">
-              <p>Atributo específico para el formato HTML.</p>
-            </div>
-            <div class="tsd-comment tsd-typography"></div>
-            <aside class="tsd-sources">
-              <ul>
-                <li>
-                  Defined in
-                  <a
-                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-2.ts#L90"
-                    >ejercicio-2.ts:90</a
-                  >
-                </li>
-              </ul>
-            </aside>
-          </section>
-          <section class="tsd-panel tsd-member tsd-is-inherited">
-            <a id="total" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>total</span
-              ><a href="#total" aria-label="Permalink" class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <div class="tsd-signature">
-              <span class="tsd-kind-property">total</span
-              ><span class="tsd-signature-symbol">:</span>
-              <span class="tsd-signature-type">number</span>
-            </div>
-            <div class="tsd-comment tsd-typography">
-              <p>Total de la factura.</p>
-            </div>
-            <div class="tsd-comment tsd-typography"></div>
-            <aside class="tsd-sources">
-              <p>
-                Inherited from
-                <a
-                  href="Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html"
-                  >Factura</a
-                >.<a
-                  href="Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html#total"
-                  >total</a
-                >
-              </p>
-              <ul>
-                <li>
-                  Defined in
-                  <a
-                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-2.ts#L40"
-                    >ejercicio-2.ts:40</a
-                  >
-                </li>
-              </ul>
-            </aside>
-          </section>
-        </section>
-        <section class="tsd-panel-group tsd-member-group">
-          <h2>Methods</h2>
-          <section class="tsd-panel tsd-member">
-            <a id="generarFactura" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>generar<wbr />Factura</span
-              ><a
-                href="#generarFactura"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
+              <span>divide</span
+              ><a href="#divide" aria-label="Permalink" class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="generarFactura.generarFactura-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature"
-                  >generar<wbr />Factura</span
+                <a id="divide.divide-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">divide</span
                 ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">string</span
                 ><a
-                  href="#generarFactura.generarFactura-1"
+                  class="tsd-signature-type tsd-kind-type-parameter"
+                  href="Arithmeticable.html#T"
+                  >T</a
+                ><a
+                  href="#divide.divide-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -467,30 +353,198 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Método para generar la factura.</p>
+                  <p>Realiza la división de dos elementos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          class="tsd-signature-type tsd-kind-type-parameter"
+                          href="Arithmeticable.html#T"
+                          >T</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Elemento a dividir.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
                 </div>
                 <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">string</span>
+                  Returns
+                  <a
+                    class="tsd-signature-type tsd-kind-type-parameter"
+                    href="Arithmeticable.html#T"
+                    >T</a
+                  >
                 </h4>
-                <p>Devuelve la factura en formato HTML.</p>
+                <p>La división de this y other.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
-                  <p>
-                    Implementation of
-                    <a
-                      href="../interfaces/Ejercicio_2__Facturas_en_diferentes_formatos_.IFactura.html"
-                      >IFactura</a
-                    >.<a
-                      href="../interfaces/Ejercicio_2__Facturas_en_diferentes_formatos_.IFactura.html#generarFactura"
-                      >generarFactura</a
-                    >
-                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-2.ts#L107"
-                        >ejercicio-2.ts:107</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L49"
+                        >p7-mod1.ts:49</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="multiply" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>multiply</span
+              ><a
+                href="#multiply"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="multiply.multiply-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">multiply</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  class="tsd-signature-type tsd-kind-type-parameter"
+                  href="Arithmeticable.html#T"
+                  >T</a
+                ><a
+                  href="#multiply.multiply-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Realiza la multiplicación de dos elementos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          class="tsd-signature-type tsd-kind-type-parameter"
+                          href="Arithmeticable.html#T"
+                          >T</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Elemento a multiplicar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    class="tsd-signature-type tsd-kind-type-parameter"
+                    href="Arithmeticable.html#T"
+                    >T</a
+                  >
+                </h4>
+                <p>La multiplicación de this y other.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L42"
+                        >p7-mod1.ts:42</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="subtract" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>subtract</span
+              ><a
+                href="#subtract"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="subtract.subtract-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">subtract</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  class="tsd-signature-type tsd-kind-type-parameter"
+                  href="Arithmeticable.html#T"
+                  >T</a
+                ><a
+                  href="#subtract.subtract-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Realiza la resta de dos elementos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          class="tsd-signature-type tsd-kind-type-parameter"
+                          href="Arithmeticable.html#T"
+                          >T</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Elemento a restar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    class="tsd-signature-type tsd-kind-type-parameter"
+                    href="Arithmeticable.html#T"
+                    >T</a
+                  >
+                </h4>
+                <p>La resta de this y other.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L35"
+                        >p7-mod1.ts:35</a
                       >
                     </li>
                   </ul>
@@ -670,38 +724,31 @@
             <div class="tsd-accordion-details">
               <ul>
                 <li>
-                  <a href="#constructor" class=""
-                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                      <use href="#icon-512"></use></svg
-                    ><span>constructor</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#cliente" class="tsd-is-inherited"
-                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                      <use href="#icon-1024"></use></svg
-                    ><span>cliente</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#estilosCSS" class=""
-                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                      <use href="#icon-1024"></use></svg
-                    ><span>estilosCSS</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#total" class="tsd-is-inherited"
-                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                      <use href="#icon-1024"></use></svg
-                    ><span>total</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#generarFactura" class=""
+                  <a href="#add" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>generar<wbr />Factura</span></a
+                    ><span>add</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#divide" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>divide</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#multiply" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>multiply</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#subtract" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>subtract</span></a
                   >
                 </li>
               </ul>
@@ -710,12 +757,10 @@
         </div>
         <div class="site-menu">
           <nav class="tsd-navigation">
-            <a href="../index.html"
+            <a href="../modules.html"
               ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                 <use href="#icon-1"></use></svg
-              ><span
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</span
-              ></a
+              ><span>dsi-practica7-mod</span></a
             >
             <ul
               class="tsd-small-nested-navigation"
@@ -723,67 +768,38 @@
               data-base=".."
             >
               <li>
-                <a href="../modules/Ejercicio_1__La_mudanza_.html"
+                <a href="../classes/ArithmeticableCollection.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 1: La mudanza.</a
+                    <use href="#icon-128"></use></svg
+                  >ArithmeticableCollection</a
                 >
               </li>
               <li>
-                <a
-                  href="../modules/Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                <a href="../classes/Complex.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 2: Facturas en diferentes formatos.</a
+                    <use href="#icon-128"></use></svg
+                  >Complex</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_3__Gestor_de_ficheros_.html"
+                <a href="../classes/ComplexRationalAdapter.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 3: Gestor de ficheros.</a
+                    <use href="#icon-128"></use></svg
+                  >ComplexRationalAdapter</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_4__Impresoras_y_esc_neres_.html"
+                <a href="../classes/Rational.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 4: Impresoras y escáneres.</a
+                    <use href="#icon-128"></use></svg
+                  >Rational</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_5__Servicio_de_mensajer_a_.html"
+                <a href="Arithmeticable.html" class="current"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 5: Servicio de mensajería.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/Modificaci_n_arreglada__PE101_.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Modificación arreglada: PE101.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_1.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-1</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_2.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-2</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_3.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-3</a
+                    <use href="#icon-256"></use></svg
+                  >Arithmeticable</a
                 >
               </li>
             </ul>

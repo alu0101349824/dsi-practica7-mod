@@ -3,14 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <title>
-      ShortMessageService |
-      ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
-    </title>
-    <meta
-      name="description"
-      content="Documentation for ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824"
-    />
+    <title>Complex | dsi-practica7-mod</title>
+    <meta name="description" content="Documentation for dsi-practica7-mod" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../assets/style.css" />
     <link rel="stylesheet" href="../assets/highlight.css" />
@@ -60,37 +54,35 @@
       <div class="col-content">
         <div class="tsd-page-title">
           <ul class="tsd-breadcrumb">
-            <li>
-              <a href="../index.html"
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</a
-              >
-            </li>
-            <li>
-              <a href="../modules/Ejercicio_5__Servicio_de_mensajer_a_.html"
-                >Ejercicio 5: Servicio de mensajería.</a
-              >
-            </li>
-            <li>
-              <a
-                href="Ejercicio_5__Servicio_de_mensajer_a_.ShortMessageService.html"
-                >ShortMessageService</a
-              >
-            </li>
+            <li><a href="../modules.html">dsi-practica7-mod</a></li>
+            <li><a href="Complex.html">Complex</a></li>
           </ul>
-          <h1>Class ShortMessageService</h1>
+          <h1>Class Complex</h1>
         </div>
         <section class="tsd-panel tsd-comment">
           <div class="tsd-comment tsd-typography">
             <p>
-              Servicio de notificación por SMS. Implementa la interfaz
-              <code>INotificationService</code>. ShortMessageService
+              Clase <code>Complex</code> que representa un número complejo y
+              cumple con <code>Arithmeticable</code>. Esta clase permite
+              realizar operaciones aritméticas con números complejos. Implementa
+              los métodos para sumar, restar, multiplicar y dividir. Es hijo de
+              <code>Arithmeticable</code> y exige que los números complejos
+              implementen la interfaz <code>Arithmeticable</code>.
             </p>
           </div>
           <div class="tsd-comment tsd-typography">
-            <h4>Implements</h4>
-            <p>INotificationService</p>
             <h4>Method</h4>
-            <p>notify Método para enviar una notificación por SMS.</p>
+            <p>add Suma de dos números complejos.</p>
+            <h4>Method</h4>
+            <p>subtract Resta de dos números complejos.</p>
+            <h4>Method</h4>
+            <p>multiply Multiplicación de dos números complejos.</p>
+            <h4>Method</h4>
+            <p>divide División de dos números complejos.</p>
+            <h4>Method</h4>
+            <p>toString Convierte el número complejo a una cadena de texto.</p>
+            <h4>Returns</h4>
+            <p>El resultado de la operación aritmética.</p>
           </div>
         </section>
         <section class="tsd-panel">
@@ -98,10 +90,13 @@
           <ul class="tsd-hierarchy">
             <li>
               <a
-                href="../interfaces/Ejercicio_5__Servicio_de_mensajer_a_.INotificationService.html"
+                href="../interfaces/Arithmeticable.html"
                 class="tsd-signature-type tsd-kind-interface"
-                >INotificationService</a
-              >
+                >Arithmeticable</a
+              ><span class="tsd-signature-symbol">&lt;</span
+              ><a href="Complex.html" class="tsd-signature-type tsd-kind-class"
+                >Complex</a
+              ><span class="tsd-signature-symbol">&gt;</span>
             </li>
           </ul>
         </section>
@@ -110,8 +105,8 @@
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-5.ts#L48"
-                >ejercicio-5.ts:48</a
+                href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L114"
+                >p7-mod1.ts:114</a
               >
             </li>
           </ul>
@@ -136,9 +131,7 @@
                 <section class="tsd-index-section">
                   <h3 class="tsd-index-heading">Constructors</h3>
                   <div class="tsd-index-list">
-                    <a
-                      href="Ejercicio_5__Servicio_de_mensajer_a_.ShortMessageService.html#constructor"
-                      class="tsd-index-link"
+                    <a href="Complex.html#constructor" class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-512"></use></svg
                       ><span>constructor</span></a
@@ -146,14 +139,51 @@
                   </div>
                 </section>
                 <section class="tsd-index-section">
-                  <h3 class="tsd-index-heading">Methods</h3>
+                  <h3 class="tsd-index-heading">Properties</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Ejercicio_5__Servicio_de_mensajer_a_.ShortMessageService.html#notify"
-                      class="tsd-index-link"
+                      href="Complex.html#imaginary"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-1024"></use></svg
+                      ><span>imaginary</span></a
+                    >
+                    <a
+                      href="Complex.html#real"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-1024"></use></svg
+                      ><span>real</span></a
+                    >
+                  </div>
+                </section>
+                <section class="tsd-index-section">
+                  <h3 class="tsd-index-heading">Methods</h3>
+                  <div class="tsd-index-list">
+                    <a href="Complex.html#add" class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>notify</span></a
+                      ><span>add</span></a
+                    >
+                    <a href="Complex.html#divide" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>divide</span></a
+                    >
+                    <a href="Complex.html#multiply" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>multiply</span></a
+                    >
+                    <a href="Complex.html#subtract" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>subtract</span></a
+                    >
+                    <a href="Complex.html#toString" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>to<wbr />String</span></a
                     >
                   </div>
                 </section>
@@ -176,60 +206,20 @@
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a
-                  id="constructor.new_ShortMessageService"
-                  class="tsd-anchor"
-                ></a
+                <a id="constructor.new_Complex" class="tsd-anchor"></a
                 ><span class="tsd-kind-constructor-signature"
-                  >new <wbr />Short<wbr />Message<wbr />Service</span
+                  >new <wbr />Complex</span
                 ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">real</span>,
+                <span class="tsd-kind-parameter">imaginary</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  href="Ejercicio_5__Servicio_de_mensajer_a_.ShortMessageService.html"
+                  href="Complex.html"
                   class="tsd-signature-type tsd-kind-class"
-                  >ShortMessageService</a
+                  >Complex</a
                 ><a
-                  href="#constructor.new_ShortMessageService"
-                  aria-label="Permalink"
-                  class="tsd-anchor-icon"
-                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-                ></a>
-              </li>
-              <li class="tsd-description">
-                <h4 class="tsd-returns-title">
-                  Returns
-                  <a
-                    href="Ejercicio_5__Servicio_de_mensajer_a_.ShortMessageService.html"
-                    class="tsd-signature-type tsd-kind-class"
-                    >ShortMessageService</a
-                  >
-                </h4>
-              </li>
-            </ul>
-          </section>
-        </section>
-        <section class="tsd-panel-group tsd-member-group">
-          <h2>Methods</h2>
-          <section class="tsd-panel tsd-member">
-            <a id="notify" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>notify</span
-              ><a href="#notify" aria-label="Permalink" class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <ul class="tsd-signatures">
-              <li class="tsd-signature tsd-anchor-link">
-                <a id="notify.notify-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">notify</span
-                ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">message</span
-                ><span class="tsd-signature-symbol">)</span
-                ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
-                ><a
-                  href="#notify.notify-1"
+                  href="#constructor.new_Complex"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -237,44 +227,503 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Envía una notificación por SMS.</p>
+                  <p>Constructor de la clase <code>Complex</code>.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">message</span>:
-                        <span class="tsd-signature-type">string</span>
+                        <span class="tsd-kind-parameter">real</span>:
+                        <span class="tsd-signature-type">number</span>
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Mensaje a enviar.</p>
+                        <p>Parte real del número complejo.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">imaginary</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Parte imaginaria del número complejo.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
                   </ul>
                 </div>
                 <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
+                  Returns
+                  <a
+                    href="Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
                 </h4>
+                <p>Una instancia de <code>Complex</code>.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L121"
+                        >p7-mod1.ts:121</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="tsd-panel-group tsd-member-group">
+          <h2>Properties</h2>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="imaginary" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>imaginary</span
+              ><a
+                href="#imaginary"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <div class="tsd-signature">
+              <span class="tsd-kind-property">imaginary</span
+              ><span class="tsd-signature-symbol">:</span>
+              <span class="tsd-signature-type">number</span>
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <p>Parte imaginaria del número complejo.</p>
+            </div>
+            <div class="tsd-comment tsd-typography"></div>
+            <aside class="tsd-sources">
+              <ul>
+                <li>
+                  Defined in
+                  <a
+                    href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L135"
+                    >p7-mod1.ts:135</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="real" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>real</span
+              ><a href="#real" aria-label="Permalink" class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <div class="tsd-signature">
+              <span class="tsd-kind-property">real</span
+              ><span class="tsd-signature-symbol">:</span>
+              <span class="tsd-signature-type">number</span>
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <p>Parte real del número complejo.</p>
+            </div>
+            <div class="tsd-comment tsd-typography"></div>
+            <aside class="tsd-sources">
+              <ul>
+                <li>
+                  Defined in
+                  <a
+                    href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L128"
+                    >p7-mod1.ts:128</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </section>
+        </section>
+        <section class="tsd-panel-group tsd-member-group">
+          <h2>Methods</h2>
+          <section class="tsd-panel tsd-member">
+            <a id="add" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>add</span
+              ><a href="#add" aria-label="Permalink" class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="add.add-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">add</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#add.add-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Suma de dos números complejos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número complejo a sumar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
                   <p>
                     Implementation of
-                    <a
-                      href="../interfaces/Ejercicio_5__Servicio_de_mensajer_a_.INotificationService.html"
-                      >INotificationService</a
-                    >.<a
-                      href="../interfaces/Ejercicio_5__Servicio_de_mensajer_a_.INotificationService.html#notify"
-                      >notify</a
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#add">add</a>
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L143"
+                        >p7-mod1.ts:143</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="divide" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>divide</span
+              ><a href="#divide" aria-label="Permalink" class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="divide.divide-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">divide</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#divide.divide-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>División de dos números complejos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número complejo a dividir.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#divide"
+                      >divide</a
                     >
                   </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/ejercicio-5.ts#L53"
-                        >ejercicio-5.ts:53</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L179"
+                        >p7-mod1.ts:179</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="multiply" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>multiply</span
+              ><a
+                href="#multiply"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="multiply.multiply-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">multiply</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#multiply.multiply-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Multiplicación de dos números complejos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número complejo a multiplicar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#multiply"
+                      >multiply</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L167"
+                        >p7-mod1.ts:167</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="subtract" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>subtract</span
+              ><a
+                href="#subtract"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="subtract.subtract-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">subtract</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#subtract.subtract-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Resta de dos números complejos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número complejo a restar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#subtract"
+                      >subtract</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L155"
+                        >p7-mod1.ts:155</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="toString" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>to<wbr />String</span
+              ><a
+                href="#toString"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="toString.toString-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">to<wbr />String</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">string</span
+                ><a
+                  href="#toString.toString-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>
+                    Convierte el número complejo a una cadena de texto. También
+                    se encarga de manejar los casos especiales.
+                  </p>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">string</span>
+                </h4>
+                <p>Representación en cadena del número complejo.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L192"
+                        >p7-mod1.ts:192</a
                       >
                     </li>
                   </ul>
@@ -461,10 +910,52 @@
                   >
                 </li>
                 <li>
-                  <a href="#notify" class=""
+                  <a href="#imaginary" class="tsd-is-private"
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-1024"></use></svg
+                    ><span>imaginary</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#real" class="tsd-is-private"
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-1024"></use></svg
+                    ><span>real</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#add" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>notify</span></a
+                    ><span>add</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#divide" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>divide</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#multiply" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>multiply</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#subtract" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>subtract</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#toString" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>to<wbr />String</span></a
                   >
                 </li>
               </ul>
@@ -473,12 +964,10 @@
         </div>
         <div class="site-menu">
           <nav class="tsd-navigation">
-            <a href="../index.html"
+            <a href="../modules.html"
               ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                 <use href="#icon-1"></use></svg
-              ><span
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</span
-              ></a
+              ><span>dsi-practica7-mod</span></a
             >
             <ul
               class="tsd-small-nested-navigation"
@@ -486,67 +975,38 @@
               data-base=".."
             >
               <li>
-                <a href="../modules/Ejercicio_1__La_mudanza_.html"
+                <a href="ArithmeticableCollection.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 1: La mudanza.</a
+                    <use href="#icon-128"></use></svg
+                  >ArithmeticableCollection</a
                 >
               </li>
               <li>
-                <a
-                  href="../modules/Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                <a href="Complex.html" class="current"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 2: Facturas en diferentes formatos.</a
+                    <use href="#icon-128"></use></svg
+                  >Complex</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_3__Gestor_de_ficheros_.html"
+                <a href="ComplexRationalAdapter.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 3: Gestor de ficheros.</a
+                    <use href="#icon-128"></use></svg
+                  >ComplexRationalAdapter</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_4__Impresoras_y_esc_neres_.html"
+                <a href="Rational.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 4: Impresoras y escáneres.</a
+                    <use href="#icon-128"></use></svg
+                  >Rational</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_5__Servicio_de_mensajer_a_.html"
+                <a href="../interfaces/Arithmeticable.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 5: Servicio de mensajería.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/Modificaci_n_arreglada__PE101_.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Modificación arreglada: PE101.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_1.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-1</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_2.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-2</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_3.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-3</a
+                    <use href="#icon-256"></use></svg
+                  >Arithmeticable</a
                 >
               </li>
             </ul>

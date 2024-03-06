@@ -7,4 +7,4 @@
 # Práctica 7: Modificación Adapter.
 Repositorio para la modificación individual de la práctica 7 de DSI.
 
-[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/alu0101349824/dsi-practica7-mod/badge.svg?branch=main)](https://coveralls.io/github/alu0101349824/dsi-practica7-mod?branch=main)

@@ -371,7 +371,9 @@ export class Rational implements Arithmeticable<Rational> {
  * @method divide División de un número complejo y un número racional.
  * @returns El resultado de la operación aritmética.
  */
-export class ComplexRationalAdapter implements Arithmeticable<ComplexRationalAdapter> {
+export class ComplexRationalAdapter
+  implements Arithmeticable<ComplexRationalAdapter>
+{
   /**
    * Constructor de la clase `ComplexRationalAdapter`.
    * @param rational Número racional a adaptar.

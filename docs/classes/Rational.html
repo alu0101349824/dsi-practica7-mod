@@ -3,14 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <title>
-      ArithmeticableCollection |
-      ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
-    </title>
-    <meta
-      name="description"
-      content="Documentation for ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824"
-    />
+    <title>Rational | dsi-practica7-mod</title>
+    <meta name="description" content="Documentation for dsi-practica7-mod" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../assets/style.css" />
     <link rel="stylesheet" href="../assets/highlight.css" />
@@ -60,78 +54,53 @@
       <div class="col-content">
         <div class="tsd-page-title">
           <ul class="tsd-breadcrumb">
-            <li>
-              <a href="../index.html"
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</a
-              >
-            </li>
-            <li>
-              <a href="../modules/Modificaci_n_arreglada__PE101_.html"
-                >Modificación arreglada: PE101.</a
-              >
-            </li>
-            <li>
-              <a
-                href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html"
-                >ArithmeticableCollection</a
-              >
-            </li>
+            <li><a href="../modules.html">dsi-practica7-mod</a></li>
+            <li><a href="Rational.html">Rational</a></li>
           </ul>
-          <h1>Class ArithmeticableCollection&lt;T&gt;</h1>
+          <h1>Class Rational</h1>
         </div>
         <section class="tsd-panel tsd-comment">
           <div class="tsd-comment tsd-typography">
             <p>
-              Clase <code>ArithmeticableCollection</code> que gestiona una
-              colección de elementos <code>Arithmeticable</code>. Esta clase
-              permite añadir elementos a la colección, obtener un elemento por
-              su índice y obtener el número de elementos. Exige que los
-              elementos implementen la interfaz <code>Arithmeticable</code>.
+              Clase <code>Rational</code> que representa un número racional y
+              cumple con <code>Arithmeticable</code>. Esta clase permite
+              realizar operaciones aritméticas con números racionales.
+              Implementa los métodos para sumar, restar, multiplicar y dividir.
+              Es hijo de <code>Arithmeticable</code> y exige que los números
+              racionales implementen la interfaz <code>Arithmeticable</code>.
             </p>
           </div>
           <div class="tsd-comment tsd-typography">
             <h4>Method</h4>
-            <p>addArithmeticable Añade un elemento a la colección.</p>
+            <p>add Suma de dos números racionales.</p>
             <h4>Method</h4>
-            <p>
-              getArithmeticable Obtiene un elemento de la colección por su
-              índice.
-            </p>
+            <p>subtract Resta de dos números racionales.</p>
             <h4>Method</h4>
-            <p>
-              getNumberOfArithmeticables Obtiene el número de elementos en la
-              colección.
-            </p>
+            <p>multiply Multiplicación de dos números racionales.</p>
+            <h4>Method</h4>
+            <p>divide División de dos números racionales.</p>
+            <h4>Method</h4>
+            <p>simplify Simplifica el número racional.</p>
+            <h4>Method</h4>
+            <p>mcd Calcula el máximo común divisor.</p>
+            <h4>Method</h4>
+            <p>toString Convierte el número racional a una cadena de texto.</p>
             <h4>Returns</h4>
             <p>El resultado de la operación aritmética.</p>
           </div>
         </section>
         <section class="tsd-panel">
-          <h4>Type Parameters</h4>
-          <ul class="tsd-type-parameter-list">
+          <h4>Implements</h4>
+          <ul class="tsd-hierarchy">
             <li>
-              <h4>
-                <a id="T" class="tsd-anchor"></a
-                ><span class="tsd-kind-type-parameter">T</span
-                ><span class="tsd-signature-keyword"> extends </span
-                ><a
-                  href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html"
-                  class="tsd-signature-type tsd-kind-interface"
-                  >Arithmeticable</a
-                ><span class="tsd-signature-symbol">&lt;</span
-                ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">&gt;</span>
-              </h4>
-              <div class="tsd-comment tsd-typography">
-                <p>
-                  Tipo genérico restringido a elementos que implementan
-                  <code>Arithmeticable</code>.
-                </p>
-              </div>
-              <div class="tsd-comment tsd-typography"></div>
+              <a
+                href="../interfaces/Arithmeticable.html"
+                class="tsd-signature-type tsd-kind-interface"
+                >Arithmeticable</a
+              ><span class="tsd-signature-symbol">&lt;</span
+              ><a href="Rational.html" class="tsd-signature-type tsd-kind-class"
+                >Rational</a
+              ><span class="tsd-signature-symbol">&gt;</span>
             </li>
           </ul>
         </section>
@@ -140,8 +109,8 @@
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L69"
-                >modificacion-arreglada.ts:69</a
+                href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L230"
+                >p7-mod1.ts:230</a
               >
             </li>
           </ul>
@@ -166,9 +135,7 @@
                 <section class="tsd-index-section">
                   <h3 class="tsd-index-heading">Constructors</h3>
                   <div class="tsd-index-list">
-                    <a
-                      href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor"
-                      class="tsd-index-link"
+                    <a href="Rational.html#constructor" class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-512"></use></svg
                       ><span>constructor</span></a
@@ -179,39 +146,74 @@
                   <h3 class="tsd-index-heading">Properties</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#elements"
+                      href="Rational.html#denominator"
                       class="tsd-index-link tsd-is-private"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-1024"></use></svg
-                      ><span>elements</span></a
+                      ><span>denominator</span></a
+                    >
+                    <a
+                      href="Rational.html#numerator"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-1024"></use></svg
+                      ><span>numerator</span></a
                     >
                   </div>
                 </section>
                 <section class="tsd-index-section">
                   <h3 class="tsd-index-heading">Methods</h3>
                   <div class="tsd-index-list">
-                    <a
-                      href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#addArithmeticable"
-                      class="tsd-index-link"
+                    <a href="Rational.html#add" class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>add<wbr />Arithmeticable</span></a
+                      ><span>add</span></a
+                    >
+                    <a href="Rational.html#divide" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>divide</span></a
                     >
                     <a
-                      href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#getArithmeticable"
+                      href="Rational.html#getDenominator"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>get<wbr />Arithmeticable</span></a
+                      ><span>get<wbr />Denominator</span></a
+                    >
+                    <a href="Rational.html#getNumerator" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>get<wbr />Numerator</span></a
                     >
                     <a
-                      href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#getNumberOfArithmeticables"
-                      class="tsd-index-link"
+                      href="Rational.html#mcd"
+                      class="tsd-index-link tsd-is-private"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span
-                        >get<wbr />Number<wbr />Of<wbr />Arithmeticables</span
-                      ></a
+                      ><span>mcd</span></a
+                    >
+                    <a href="Rational.html#multiply" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>multiply</span></a
+                    >
+                    <a
+                      href="Rational.html#simplify"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>simplify</span></a
+                    >
+                    <a href="Rational.html#subtract" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>subtract</span></a
+                    >
+                    <a href="Rational.html#toString" class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>to<wbr />String</span></a
                     >
                   </div>
                 </section>
@@ -234,35 +236,20 @@
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a
-                  id="constructor.new_ArithmeticableCollection"
-                  class="tsd-anchor"
-                ></a
+                <a id="constructor.new_Rational" class="tsd-anchor"></a
                 ><span class="tsd-kind-constructor-signature"
-                  >new <wbr />Arithmeticable<wbr />Collection</span
-                ><span class="tsd-signature-symbol">&lt;</span
-                ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">&gt;</span
+                  >new <wbr />Rational</span
                 ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">elements</span
-                ><span class="tsd-signature-symbol">?</span
+                ><span class="tsd-kind-parameter">numerator</span>,
+                <span class="tsd-kind-parameter">denominator</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html"
+                  href="Rational.html"
                   class="tsd-signature-type tsd-kind-class"
-                  >ArithmeticableCollection</a
-                ><span class="tsd-signature-symbol">&lt;</span
+                  >Rational</a
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">&gt;</span
-                ><a
-                  href="#constructor.new_ArithmeticableCollection"
+                  href="#constructor.new_Rational"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -270,51 +257,28 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>
-                    Constructor de la clase
-                    <code>ArithmeticableCollection</code>.
-                  </p>
+                  <p>Constructor de la clase <code>Rational</code>.</p>
                 </div>
-                <section class="tsd-panel">
-                  <h4>Type Parameters</h4>
-                  <ul class="tsd-type-parameter-list">
-                    <li>
-                      <h4>
-                        <a
-                          id="constructor.new_ArithmeticableCollection.T-1"
-                          class="tsd-anchor"
-                        ></a
-                        ><span class="tsd-kind-type-parameter">T</span
-                        ><span class="tsd-signature-keyword"> extends </span
-                        ><a
-                          href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html"
-                          class="tsd-signature-type tsd-kind-interface"
-                          >Arithmeticable</a
-                        ><span class="tsd-signature-symbol">&lt;</span
-                        ><a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                          >T</a
-                        ><span class="tsd-signature-symbol">&gt;</span>
-                      </h4>
-                    </li>
-                  </ul>
-                </section>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">elements</span>:
-                        <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                          >T</a
-                        ><span class="tsd-signature-symbol">[]</span
-                        ><span class="tsd-signature-symbol"> = []</span>
+                        <span class="tsd-kind-parameter">numerator</span>:
+                        <span class="tsd-signature-type">number</span>
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Lista de elementos de la colección.</p>
+                        <p>Numerador del número racional.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">denominator</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Denominador del número racional.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -323,25 +287,23 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html"
+                    href="Rational.html"
                     class="tsd-signature-type tsd-kind-class"
-                    >ArithmeticableCollection</a
-                  ><span class="tsd-signature-symbol">&lt;</span
-                  ><a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                    >T</a
-                  ><span class="tsd-signature-symbol">&gt;</span>
+                    >Rational</a
+                  >
                 </h4>
-                <p>Una instancia de <code>ArithmeticableCollection</code>.</p>
-                <div class="tsd-comment tsd-typography"></div>
+                <p>Una instancia de <code>Rational</code>.</p>
+                <div class="tsd-comment tsd-typography">
+                  <h4>Throws</h4>
+                  <p>Error si el denominador es cero.</p>
+                </div>
                 <aside class="tsd-sources">
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L75"
-                        >modificacion-arreglada.ts:75</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L238"
+                        >p7-mod1.ts:238</a
                       >
                     </li>
                   </ul>
@@ -353,29 +315,24 @@
         <section class="tsd-panel-group tsd-member-group">
           <h2>Properties</h2>
           <section class="tsd-panel tsd-member tsd-is-private">
-            <a id="elements" class="tsd-anchor"></a>
+            <a id="denominator" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
               <code class="tsd-tag ts-flagPrivate">Private</code>
-              <span>elements</span
+              <span>denominator</span
               ><a
-                href="#elements"
+                href="#denominator"
                 aria-label="Permalink"
                 class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <div class="tsd-signature">
-              <span class="tsd-kind-property">elements</span
+              <span class="tsd-kind-property">denominator</span
               ><span class="tsd-signature-symbol">:</span>
-              <a
-                class="tsd-signature-type tsd-kind-type-parameter"
-                href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                >T</a
-              ><span class="tsd-signature-symbol">[]</span
-              ><span class="tsd-signature-symbol"> = []</span>
+              <span class="tsd-signature-type">number</span>
             </div>
             <div class="tsd-comment tsd-typography">
-              <p>Lista de elementos de la colección.</p>
+              <p>Denominador del número racional.</p>
             </div>
             <div class="tsd-comment tsd-typography"></div>
             <aside class="tsd-sources">
@@ -383,8 +340,41 @@
                 <li>
                   Defined in
                   <a
-                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L75"
-                    >modificacion-arreglada.ts:75</a
+                    href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L252"
+                    >p7-mod1.ts:252</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="numerator" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>numerator</span
+              ><a
+                href="#numerator"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <div class="tsd-signature">
+              <span class="tsd-kind-property">numerator</span
+              ><span class="tsd-signature-symbol">:</span>
+              <span class="tsd-signature-type">number</span>
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <p>Numerador del número racional.</p>
+            </div>
+            <div class="tsd-comment tsd-typography"></div>
+            <aside class="tsd-sources">
+              <ul>
+                <li>
+                  Defined in
+                  <a
+                    href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L245"
+                    >p7-mod1.ts:245</a
                   >
                 </li>
               </ul>
@@ -394,31 +384,27 @@
         <section class="tsd-panel-group tsd-member-group">
           <h2>Methods</h2>
           <section class="tsd-panel tsd-member">
-            <a id="addArithmeticable" class="tsd-anchor"></a>
+            <a id="add" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>add<wbr />Arithmeticable</span
-              ><a
-                href="#addArithmeticable"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
+              <span>add</span
+              ><a href="#add" aria-label="Permalink" class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a
-                  id="addArithmeticable.addArithmeticable-1"
-                  class="tsd-anchor"
-                ></a
-                ><span class="tsd-kind-call-signature"
-                  >add<wbr />Arithmeticable</span
+                <a id="add.add-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">add</span
                 ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">element</span
+                ><span class="tsd-kind-parameter">other</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
                 ><a
-                  href="#addArithmeticable.addArithmeticable-1"
+                  href="Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#add.add-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -426,38 +412,50 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Añade un elemento a la colección.</p>
+                  <p>Suma de dos números racionales.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">element</span>:
+                        <span class="tsd-kind-parameter">other</span>:
                         <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                          >T</a
+                          href="Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
                         >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Elemento a añadir.</p>
+                        <p>Número racional a sumar.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
                   </ul>
                 </div>
                 <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
+                  Returns
+                  <a
+                    href="Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
                 </h4>
+                <p>El resultado de la operación aritmética.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#add">add</a>
+                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L81"
-                        >modificacion-arreglada.ts:81</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L281"
+                        >p7-mod1.ts:281</a
                       >
                     </li>
                   </ul>
@@ -466,36 +464,27 @@
             </ul>
           </section>
           <section class="tsd-panel tsd-member">
-            <a id="getArithmeticable" class="tsd-anchor"></a>
+            <a id="divide" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>get<wbr />Arithmeticable</span
-              ><a
-                href="#getArithmeticable"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
+              <span>divide</span
+              ><a href="#divide" aria-label="Permalink" class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a
-                  id="getArithmeticable.getArithmeticable-1"
-                  class="tsd-anchor"
-                ></a
-                ><span class="tsd-kind-call-signature"
-                  >get<wbr />Arithmeticable</span
+                <a id="divide.divide-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">divide</span
                 ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">index</span
+                ><span class="tsd-kind-parameter">other</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">undefined</span
-                ><span class="tsd-signature-symbol"> | </span
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                  >T</a
+                  href="Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
                 ><a
-                  href="#getArithmeticable.getArithmeticable-1"
+                  href="#divide.divide-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -503,41 +492,58 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Obtiene un elemento de la colección por su índice.</p>
+                  <p>División de dos números racionales.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">index</span>:
-                        <span class="tsd-signature-type">number</span>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
+                        >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>Índice del elemento a obtener.</p>
+                        <p>Número racional a dividir.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
                   </ul>
                 </div>
                 <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">undefined</span
-                  ><span class="tsd-signature-symbol"> | </span
-                  ><a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Modificaci_n_arreglada__PE101_.ArithmeticableCollection.html#constructor.new_ArithmeticableCollection.T-1"
-                    >T</a
+                  Returns
+                  <a
+                    href="Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
                   >
                 </h4>
-                <p>El elemento en el índice dado.</p>
-                <div class="tsd-comment tsd-typography"></div>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography">
+                  <h4>Throws</h4>
+                  <p>
+                    Error si el denominador del número racional
+                    <code>other</code> es cero.
+                  </p>
+                </div>
                 <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#divide"
+                      >divide</a
+                    >
+                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L90"
-                        >modificacion-arreglada.ts:90</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L318"
+                        >p7-mod1.ts:318</a
                       >
                     </li>
                   </ul>
@@ -546,11 +552,11 @@
             </ul>
           </section>
           <section class="tsd-panel tsd-member">
-            <a id="getNumberOfArithmeticables" class="tsd-anchor"></a>
+            <a id="getDenominator" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>get<wbr />Number<wbr />Of<wbr />Arithmeticables</span
+              <span>get<wbr />Denominator</span
               ><a
-                href="#getNumberOfArithmeticables"
+                href="#getDenominator"
                 aria-label="Permalink"
                 class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -558,18 +564,15 @@
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a
-                  id="getNumberOfArithmeticables.getNumberOfArithmeticables-1"
-                  class="tsd-anchor"
-                ></a
+                <a id="getDenominator.getDenominator-1" class="tsd-anchor"></a
                 ><span class="tsd-kind-call-signature"
-                  >get<wbr />Number<wbr />Of<wbr />Arithmeticables</span
+                  >get<wbr />Denominator</span
                 ><span class="tsd-signature-symbol">(</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><span class="tsd-signature-type">number</span
                 ><a
-                  href="#getNumberOfArithmeticables.getNumberOfArithmeticables-1"
+                  href="#getDenominator.getDenominator-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -577,20 +580,412 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Obtiene el número de elementos en la colección.</p>
+                  <p>Obtiene el denominador del número racional.</p>
                 </div>
                 <h4 class="tsd-returns-title">
                   Returns <span class="tsd-signature-type">number</span>
                 </h4>
-                <p>Número de elementos.</p>
+                <p>El denominador del número racional.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/02735da/src/modificacion-arreglada.ts#L101"
-                        >modificacion-arreglada.ts:101</a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L272"
+                        >p7-mod1.ts:272</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="getNumerator" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>get<wbr />Numerator</span
+              ><a
+                href="#getNumerator"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="getNumerator.getNumerator-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">get<wbr />Numerator</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">number</span
+                ><a
+                  href="#getNumerator.getNumerator-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Obtiene el numerador del número racional.</p>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">number</span>
+                </h4>
+                <p>El numerador del número racional.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L264"
+                        >p7-mod1.ts:264</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="mcd" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>mcd</span
+              ><a href="#mcd" aria-label="Permalink" class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures tsd-is-private">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="mcd.mcd-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">mcd</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">a</span>,
+                <span class="tsd-kind-parameter">b</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">number</span
+                ><a
+                  href="#mcd.mcd-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Calcula el máximo común divisor.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">a</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Primer número entero.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">b</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Segundo número entero.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">number</span>
+                </h4>
+                <p>El máximo común divisor de a y b.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L346"
+                        >p7-mod1.ts:346</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="multiply" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>multiply</span
+              ><a
+                href="#multiply"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="multiply.multiply-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">multiply</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#multiply.multiply-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Multiplicación de dos números racionales.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número racional a multiplicar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#multiply"
+                      >multiply</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L305"
+                        >p7-mod1.ts:305</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="simplify" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>simplify</span
+              ><a
+                href="#simplify"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures tsd-is-private">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="simplify.simplify-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">simplify</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">void</span
+                ><a
+                  href="#simplify.simplify-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Simplifica el número racional.</p>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">void</span>
+                </h4>
+                <p>El número racional simplificado.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L334"
+                        >p7-mod1.ts:334</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="subtract" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>subtract</span
+              ><a
+                href="#subtract"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="subtract.subtract-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">subtract</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#subtract.subtract-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Resta de dos números racionales.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número racional a restar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a href="../interfaces/Arithmeticable.html#subtract"
+                      >subtract</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L293"
+                        >p7-mod1.ts:293</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="toString" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>to<wbr />String</span
+              ><a
+                href="#toString"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="toString.toString-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">to<wbr />String</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">string</span
+                ><a
+                  href="#toString.toString-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Convierte el número racional a una cadena de texto.</p>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">string</span>
+                </h4>
+                <p>Representación en cadena del número racional.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/alu0101349824/dsi-practica7-mod/blob/eeba394/src/p7-mod1.ts#L354"
+                        >p7-mod1.ts:354</a
                       >
                     </li>
                   </ul>
@@ -777,33 +1172,80 @@
                   >
                 </li>
                 <li>
-                  <a href="#elements" class="tsd-is-private"
+                  <a href="#denominator" class="tsd-is-private"
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-1024"></use></svg
-                    ><span>elements</span></a
+                    ><span>denominator</span></a
                   >
                 </li>
                 <li>
-                  <a href="#addArithmeticable" class=""
+                  <a href="#numerator" class="tsd-is-private"
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                      <use href="#icon-2048"></use></svg
-                    ><span>add<wbr />Arithmeticable</span></a
+                      <use href="#icon-1024"></use></svg
+                    ><span>numerator</span></a
                   >
                 </li>
                 <li>
-                  <a href="#getArithmeticable" class=""
+                  <a href="#add" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>get<wbr />Arithmeticable</span></a
+                    ><span>add</span></a
                   >
                 </li>
                 <li>
-                  <a href="#getNumberOfArithmeticables" class=""
+                  <a href="#divide" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span
-                      >get<wbr />Number<wbr />Of<wbr />Arithmeticables</span
-                    ></a
+                    ><span>divide</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#getDenominator" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>get<wbr />Denominator</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#getNumerator" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>get<wbr />Numerator</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#mcd" class="tsd-is-private"
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>mcd</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#multiply" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>multiply</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#simplify" class="tsd-is-private"
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>simplify</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#subtract" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>subtract</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#toString" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>to<wbr />String</span></a
                   >
                 </li>
               </ul>
@@ -812,12 +1254,10 @@
         </div>
         <div class="site-menu">
           <nav class="tsd-navigation">
-            <a href="../index.html"
+            <a href="../modules.html"
               ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                 <use href="#icon-1"></use></svg
-              ><span
-                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</span
-              ></a
+              ><span>dsi-practica7-mod</span></a
             >
             <ul
               class="tsd-small-nested-navigation"
@@ -825,67 +1265,38 @@
               data-base=".."
             >
               <li>
-                <a href="../modules/Ejercicio_1__La_mudanza_.html"
+                <a href="ArithmeticableCollection.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 1: La mudanza.</a
+                    <use href="#icon-128"></use></svg
+                  >ArithmeticableCollection</a
                 >
               </li>
               <li>
-                <a
-                  href="../modules/Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                <a href="Complex.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 2: Facturas en diferentes formatos.</a
+                    <use href="#icon-128"></use></svg
+                  >Complex</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_3__Gestor_de_ficheros_.html"
+                <a href="ComplexRationalAdapter.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 3: Gestor de ficheros.</a
+                    <use href="#icon-128"></use></svg
+                  >ComplexRationalAdapter</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_4__Impresoras_y_esc_neres_.html"
+                <a href="Rational.html" class="current"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 4: Impresoras y escáneres.</a
+                    <use href="#icon-128"></use></svg
+                  >Rational</a
                 >
               </li>
               <li>
-                <a href="../modules/Ejercicio_5__Servicio_de_mensajer_a_.html"
+                <a href="../interfaces/Arithmeticable.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Ejercicio 5: Servicio de mensajería.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/Modificaci_n_arreglada__PE101_.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >Modificación arreglada: PE101.</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_1.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-1</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_2.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-2</a
-                >
-              </li>
-              <li>
-                <a href="../modules/modificacion_3.html"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-2"></use></svg
-                  >modificacion-3</a
+                    <use href="#icon-256"></use></svg
+                  >Arithmeticable</a
                 >
               </li>
             </ul>
